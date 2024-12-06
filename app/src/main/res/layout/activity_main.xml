@@ -4,7 +4,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="16dp">
+        >
 
         <TextView
             android:id="@+id/rejestracja"
@@ -14,9 +14,13 @@
             android:background="#008080"
             android:textSize="24dp"
             android:layout_gravity="left"
-            android:padding="8px"
+            android:padding="20px"
             />
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
 
         <TextView
             android:id="@+id/email"
@@ -69,6 +73,7 @@
         android:id="@+id/zmiana"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Autor"
+        android:text="Autor: Anna Antypovych"
         android:gravity="center" />
+</LinearLayout>
 </LinearLayout>
